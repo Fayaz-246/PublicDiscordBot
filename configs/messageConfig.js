@@ -1,5 +1,5 @@
 module.exports = {
-  embedColor: "#99AAb5",
+  embedColor: "Blurple",
 
   // Embed Colors
   errorEmbedColor: "#ED4245",
@@ -8,9 +8,9 @@ module.exports = {
 
   // You can use {permission} for the permission name
   missingPermissionsText:
-    "You do not have permission to use this command.\nPermission - `{permission}`",
+    "You do not have the required permissions to use this command.",
   botMissingPermissionsText:
-    "I do not have the permissions to execute this command.\nPermission - `{permission}`",
+    "I do not have the required permissions to execute this command.",
   interactionErrorText: "An error occured while executing this interaction",
 
   // Client emojis

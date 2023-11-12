@@ -16,10 +16,6 @@ const client = new Client({
 });
 client.commands = new Collection();
 client.messageConfig = require("./configs/messageConfig.js");
-client.prefixCommands = new Collection();
-client.giveawayConfig = require("./configs/config.js");
-require("./utils/giveawaysEventsHandler.js")(client);
-require("./utils/giveawaysManager.js")(client);
 
 client.login(token);
 
